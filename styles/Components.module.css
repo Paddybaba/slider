@@ -1,0 +1,18 @@
+.sliderContainer {
+  position: relative;
+  height: 500px;
+  width: 700px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: rgb(182, 255, 231);
+}
+
+.sliderContent {
+  display: flex;
+  height: 100%;
+  width: 400px;
+  /* transform: translateX(-400px); */
+  transition: transform ease-out 200ms;
+  border: 2px solid red;
+}
