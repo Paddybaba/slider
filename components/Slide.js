@@ -8,7 +8,6 @@ const Slide = ({ content }) => {
     backgroundSize: `cover`,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    border: `2px solid black`,
   };
   return <div style={css}></div>;
 };
